@@ -1,4 +1,4 @@
-<h1>Web Profile</h1>
+<h1>Web Profile - AMMAAR SIRAJ AL HAKIM</h1>
 <p>A responsive and animated personal web profile to showcase your professional portfolio, resume, projects, and interests.</p>
 
 <h2>Table of Contents</h2>
