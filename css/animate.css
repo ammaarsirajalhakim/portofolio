@@ -1,0 +1,42 @@
+@keyframes float-in {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.float-in {
+    opacity: 0; 
+    transform: translateY(50px);
+    transition: transform 1s, opacity 1s;
+}
+
+.float-in.animate {
+    animation: float-in 1s ease-out forwards;
+}
+
+/* Tambahkan CSS animasi */
+@keyframes floatAnimation {
+    from {
+      transform: translateY(30px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .float-in {
+    opacity: 0; 
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+  }
+  
+  .animate {
+    animation: floatAnimation 0.8s forwards; 
+  }
+  
